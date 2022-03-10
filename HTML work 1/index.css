@@ -1,0 +1,400 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-color: #F5F2F8;
+    font-family: Roboto;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background: url("https://steamuserimages-a.akamaihd.net/ugc/910171378794663110/E45A1C8DDD6A1EC1F69C317B6807FC7F30217098/");
+    background-size: 100% 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    height: 40px;
+    width: auto;
+    background-color: #171a21;
+    /* position:sticky;
+  bottom:10px;
+   */
+}
+
+.header .left-info-web img {
+    height: 22px;
+    width: auto;
+    justify-content: flex-start;
+}
+
+.header .left-info-web span {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #b8b6b4;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: default;
+    position: absolute;
+    /*  align-items:center; */
+    margin-top: 3px;
+}
+
+
+/* .content{
+   background:url("https://steamuserimages-a.akamaihd.net/ugc/910171378794663110/E45A1C8DDD6A1EC1F69C317B6807FC7F30217098/") 
+}  */
+
+.header .wrapper {
+    width: 1000px;
+    height: auto;
+    padding: 0px 10px;
+    margin: 0px auto;
+    /*  margin-top:40px; */
+    position: relative;
+}
+
+.content {
+    position: relative;
+    margin-top: -5px;
+}
+
+.content .wrapper {
+    width: 1000px;
+    height: 1200px;
+    padding: 0px 10px;
+    margin: 0px auto;
+    background-color: #1B2838;
+    opacity: 1;
+    align-items: center;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.content h1 {
+    font-family: Roboto;
+    font-size: 22px;
+    padding: 10px 0px;
+    cursor: default;
+    color: #b8b6b4;
+    margin: 5px 30px;
+    font-style: bold;
+    opacity: 1;
+}
+
+.button a {
+    font-family: Roboto;
+    color: #b8b6b4;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.button a:hover {
+    text-decoration: underline;
+}
+
+.information img {
+    margin-left: 40px;
+    position: absolute;
+    box-shadow: 5px;
+    opacity: 1;
+}
+
+.information {
+    height: 200px;
+    width: 600px;
+    text-align: left;
+}
+
+.information .nick {
+    color: white;
+    font-size: 30px;
+    font-family: Roboto;
+    margin-left: 270px;
+    margin-top: 15px;
+    background-size: 20px auto;
+    cursor: default;
+    opacity: 1;
+}
+
+.information .status {
+    color: white;
+    font-size: 17px;
+    font-family: Roboto;
+    margin-left: 270px;
+    margin-top: 10px;
+    cursor: default;
+    opacity: 1;
+}
+
+.status a {
+    color: white;
+    text-decoration: none;
+    /* cursor:pointer;  */
+    opacity: 1;
+}
+
+.status a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.rewards {
+    width: 300px;
+}
+
+.rewards .name-section {
+    color: #b8b6b4;
+    font-family: Roboto;
+    margin: 10px 30px;
+    font-size: 20px;
+}
+
+.rewards .reward {
+    margin-left: 40px;
+    height: 50px;
+    width: 175px;
+}
+
+.rewards .reward .reward_img {
+    margin-right: 5px;
+}
+
+.friends {
+    height: auto;
+    width: 200px;
+    background-color: aqua;
+    position: relative;
+}
+
+.bottom-header {
+    width: 1920px;
+    height: 60px;
+    background-color: #171a21;
+    text-align: center;
+    position: absolute;
+}
+
+.bottom-header p {
+    background: size 0px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 420px;
+}
+
+.bottom-header p:hover {
+    color: #2e3d50;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottom-header a:hover {
+    color: #2e3d50;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.Ban_Players {
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+    height: auto;
+    width: 200px;
+    margin-left: 80%;
+    border-color: #1B2838;
+}
+
+.Ban_Players .player {
+    margin-top: 5px;
+}
+
+.Ban_Players h2 {
+    font-size: 19px;
+    font-family: Roboto;
+    cursor: default;
+}
+
+.Ban_Players t {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.Ban_Players .player:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.recent_discussions h2 {
+    font-size: 19px;
+    font-family: Roboto;
+    cursor: default;
+}
+
+.recent_discussions {
+    color: white;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: auto;
+}
+
+.recent_discussions a {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.recent_discussions a:hover {
+    opacity: 0.8;
+}
+
+.nrc {
+    margin-left: 20px;
+    cursor: default;
+}
+
+.nrc .com_one {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nrc .com_two {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
